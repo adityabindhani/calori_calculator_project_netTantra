@@ -1,0 +1,14 @@
+[
+   {
+      "id":1,
+      "activity":"Running",
+      "step":1,
+      "calorie-burned":10
+   },
+   {
+      "id":1,
+      "activity":"Walking",
+      "step":1,
+      "calorie-burned":15
+   }
+]

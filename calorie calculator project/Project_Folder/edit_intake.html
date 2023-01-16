@@ -1,0 +1,80 @@
+
+<?php
+
+   $conn = mysqli_connect('localhost','root','','sambit_database') or die("Connection Failed");
+
+   
+
+?>
+<html>
+
+   <head>
+
+      <title>edit intake page</title>
+
+      <link rel="stylesheet" href="calorie_edit.css">
+
+      <script>
+
+         function check()
+         {
+            var bool=true;
+            var food=document.querySelector('.input_food').value;
+            var quantity=document.querySelector('.input_quantity').value;
+
+            if(food.length==0)
+            {
+               alert("Please fill the food type .");
+               bool=false;
+            }
+            else if(quantity.length==0)
+            {
+               alert("Please fill the quantity .");
+               bool=false;
+            }
+
+            return bool;
+         }
+
+      </script>
+
+   </head>
+
+   <body>
+      
+      <div class="container">
+
+         <form action="edit_intake.php" class="edit-form" method="post">
+
+            <h1>Update Form</h1>
+
+            <label for="name" id="label">Enter Your Name</label>
+            <input type="text" id="input_feild" class="input_name" placeholder="Enter your name" name="name-input">
+            
+            <br>
+
+            <label for="food" id="label">Edit the food</label>
+         <select name="food-select" id="input_feild" class="input_food">
+            <option>Select the Food</option>
+            <option id="item" value="Rice">Rice</option>
+            <option id="item" value="Roti">Roti</option>
+            <option id="item" value="apple">Apple</option>
+            <option id="item" value="orange">Orange</option>
+         </select>
+
+         <br>
+
+         <label for="food" id="label">Edit the Food Quanity</label>
+         <input type="number" id="input_feild" class="input_quantity" placeholder="Enter Quantity" name="quantity-input">
+
+         <br>
+
+         <input type="submit" id="save-btn" name="submit" value="Save" onclick="check()">
+
+         </form>
+
+      </div>
+
+   </body>
+
+</html>

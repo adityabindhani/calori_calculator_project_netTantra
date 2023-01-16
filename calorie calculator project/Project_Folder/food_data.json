@@ -1,0 +1,26 @@
+ [
+   {
+      "id":1,
+      "food":"Rice",
+      "Calories":50,
+      "Quantity":1
+   },
+   {
+      "id":2,
+      "food":"Roti",
+      "Calories":80,
+      "Quantity":1
+   },
+   {
+      "id":3,
+      "food":"apple",
+      "Calories":100,
+      "Quantity":1
+   },
+   {
+      "id":4,
+      "food":"orange",
+      "Calories":120,
+      "Quantity":1
+   }
+]

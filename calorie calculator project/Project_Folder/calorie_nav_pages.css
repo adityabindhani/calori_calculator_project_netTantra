@@ -1,0 +1,105 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   background-color: #000000;
+   color: white;
+
+   /* border: 1px solid black; */
+}
+.container
+{
+   border: 2px solid #ff00ff;
+   width: 40%;
+   background-color: #000000;
+   text-align: center;
+   margin: 2% auto;
+   border-radius: 5px;
+   box-shadow: 1px 1px 30px 1px #ff00ff5b;
+}
+#form-div
+{
+   /* border: 1px solid black; */
+   width: 60%;
+   margin: auto;
+   background-color: #000000;
+}
+#heading
+{
+   margin: 50px 0px;
+   text-transform: uppercase;
+   font-weight: 100;
+   color: rgb(255, 0, 255);
+   background-color: #000000;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+#input_feild
+{
+   width: 100%;
+   padding: 10px;
+   margin: 15px 0px;
+   border-radius: 5px;
+   border: 1px solid #ff7cff;
+   color: white;
+   background-color: rgba(50, 0, 55, 0.491);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#input_feild:focus
+{
+   outline-style: dotted;
+   outline: 2px solid #ff00e6;
+}
+#input_labels
+{
+   float: left;
+   background-color: #000000;
+   color: white;
+   font-size: 17px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#submit_button
+{
+   margin: auto;
+   padding: 15px 65px;
+   border: none;
+   background-color: #bc03bc;
+   border: 1px solid #bc03bc;
+   border-radius: 2px;
+   color: white;
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   transition: 0.3s ease;
+
+}
+#submit_button:hover
+{
+   background-color: transparent;
+   color: rgb(255, 0, 255);
+   border: 1px solid rgb(255, 0, 255);
+   cursor: pointer;
+   transition: 0.3s ease;
+}
+#Home_button
+{
+   margin: 40px 0px 50px 10px;
+   padding: 15px 45px;
+   border: none;
+   background-color: rgb(0, 174, 41);
+   border: 1px solid rgb(0, 174, 41);
+   border-radius: 2px;
+   color: white;
+   font-size: 15px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   letter-spacing: 1px;
+   transition: 0.3s ease;
+}
+#Home_button:hover
+{
+   background-color: transparent;
+   color: rgb(0, 255, 60);
+   border: 1px solid rgb(0, 255, 60);
+   cursor: pointer;
+   transition: 0.3s ease;
+}

@@ -1,0 +1,78 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1
+{
+   margin: 80px 0px;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 0, 255);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-transform: uppercase;
+   font-weight: 600;
+}
+.container
+{
+   margin: 3% auto;
+   width: 35%;
+   height: 85% ;
+   border: 2px solid rgb(255, 0, 255);
+   border-radius: 5px;
+   box-shadow: 1px 1px 40px 1px rgba(255, 0, 255, 0.452);
+   background-color: rgb(0, 0, 0);
+}
+#label
+{
+   float: left;
+   font-size: 17px;
+   background-color: rgb(0, 0, 0);
+}
+.edit-form
+{
+   width: 65%;
+   margin: auto;
+   background-color: rgb(0, 0, 0);
+}
+option{
+   text-align: left;
+}
+#input_feild
+{
+   width: 100%;
+   padding: 10px;
+   border: 1px solid rgb(255, 0, 255);
+   border-radius: 5px;
+   margin: 15px 0px;
+   text-align: left;
+   background-color: rgba(40, 40, 40, 0.368);
+   color: white;
+}
+#input_feild:focus
+{
+   outline: 2px solid rgb(255, 0, 255);
+}
+#save-btn
+{
+   width: 50%;
+   padding: 15px 20px;
+   margin: 20px auto;
+   text-align: center;
+   background-color: rgb(255, 0, 255);
+   border: 2px solid rgb(255, 0, 255);
+   color: white;
+   border-radius: 5px;
+   font-size: 15px;
+   transition: 0.3s ease;
+}
+#save-btn:hover{
+   background-color: transparent;
+   color: rgb(255, 0, 255);
+   border: 2px solid rgb(255, 0, 255);
+   cursor: pointer;
+   transition: 0.3s ease;
+}
